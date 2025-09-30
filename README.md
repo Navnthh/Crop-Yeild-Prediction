@@ -44,37 +44,57 @@ pip install -r requirements.txt
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+To run the web application:
+
+Start the Flask server:
+
 ```
-code blocks for commands
+python app.py
+
 ```
+Open your browser and visit:
+
+http://127.0.0.1:5000
+
+
+For predictions, input temperature, rainfall, pH, and area into the web form.
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Common issues and fixes:
+
+Port already in use: Stop any other service running on port 5000 or run Flask on another port:
+
+flask run --port=5001
+
+
+Missing libraries: Reinstall dependencies with:
+
+pip install -r requirements.txt
 
 ## Authors
 
-Contributors names and contact info
+Navaneeth R – Developer & Researcher
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+GitHub: @Navnthh
+
+Email: navaneeth944721@gmail.com
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+0.2
 
+Bug fixes, model optimization, added real-time SocketIO updates
+
+See commit history
+
+0.1
+
+Initial release with Flask interface and regression model integration
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License – see the LICENSE
+ file for details.
 
 ## Acknowledgments
 
