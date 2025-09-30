@@ -27,7 +27,7 @@ Hardware : IoT sensors (pH sensor, DHT22, rainfall sensor) for real-time data co
 
 Clone the repository:
 
-git clone [https://github.com/your-username/smart-farming.git](https://github.com/Navnthh/Crop-Yeild-Prediction)
+git clone https://github.com/Navnthh/Crop-Yeild-Prediction
 cd smart-farming
 
 
